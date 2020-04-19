@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet"href="style.css">
     
+    <!-- Header -->
   </head>
   <body>
     <h1>Weather Dashboard</h1>
+    <!--Search Button-->
     <div class="container-fluid">
-      <div class="row">
+        <div class="row">
           <div class="col-md-3 bg-light border rounded-lg" style="padding: 1.5rem;">
               <h4>Search for a city: </h4>
               <div class="input-group mb-3">
@@ -24,13 +26,16 @@
                           id="button-addon2">Search</button>
                   </div>
               </div>
+    <!---City List-->
               <ul id="city-list" style="list-style: none;"></ul>
           </div>
           <div class="col-sm-1 mr-n5"></div>
+    <!---Daily Forcast Block-->
           <div class="main-content col-md-8 border rounded-lg" style="padding: 1.5rem;">
               <div class="jumbotron" id="current-day-forecast" style="padding-top: 1.5rem; padding-bottom: 1.5rem">
               </div>
               <hr>
+    <!---Five Day Forcast Block-->
               <div class="jumbotron" style="padding-top: 1.5rem; padding-bottom: 1.5rem">
                   <div class="row" id="five-day-forecast"></div>
               </div>
